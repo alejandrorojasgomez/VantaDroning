@@ -9,7 +9,7 @@ export default function PromiseBand() {
     <section className="relative w-full overflow-hidden bg-vanta-ink py-24">
       <GradientBg variant="panel" />
       <div className="relative z-10 flex flex-col items-center px-6 text-center">
-        <p className="mb-8 font-body text-sm uppercase tracking-[0.28em] text-vanta-sky/80">
+        <p className="mb-8 pl-[0.28em] font-body text-sm uppercase tracking-[0.28em] text-vanta-sky/80">
           La promesa
         </p>
         <div className="font-heading text-4xl font-extrabold text-white md:text-6xl">

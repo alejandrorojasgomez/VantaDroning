@@ -45,17 +45,17 @@ export default function Features() {
       <div className="bg-noise pointer-events-none absolute inset-0 opacity-[0.12]" />
 
       <div className="relative z-10">
-        <h2 className="max-w-4xl text-2xl font-extrabold leading-[1.1] sm:text-3xl md:text-4xl">
+        <h2 className="max-w-5xl font-heading text-4xl font-extrabold leading-[1.05] tracking-[-0.02em] sm:text-5xl md:text-6xl lg:text-7xl">
           <WordsPullUpMultiStyle
             segments={[
               { text: 'Una flota que ve, piensa y actúa sola.', className: 'text-[#E8EEF7]' },
-              { text: 'Hecha para proteger lo que más te importa.', className: 'text-white/45' },
+              { text: 'Hecha para proteger lo que más te importa.', className: 'text-white/40' },
             ]}
             className="!justify-start text-left"
           />
         </h2>
 
-        <div className="mt-14 grid grid-cols-1 gap-4 md:grid-cols-2 lg:h-[480px] lg:grid-cols-4">
+        <div className="mt-20 grid grid-cols-1 gap-4 md:grid-cols-2 lg:h-[480px] lg:grid-cols-4">
           {/* visual card */}
           <Card index={0}>
             <div className="relative flex h-full min-h-[320px] flex-col justify-end overflow-hidden rounded-[1.5rem] bg-gradient-to-b from-vanta-glow/30 to-vanta-deep p-6">

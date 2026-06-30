@@ -7,6 +7,12 @@
   display: flex;
   overflow: hidden;
   line-height: 1;
+  font-family: 'Almarai', system-ui, sans-serif;
+}
+
+.counter-digit,
+.counter-number {
+  font-family: 'Almarai', system-ui, sans-serif;
 }
 
 .counter-digit {

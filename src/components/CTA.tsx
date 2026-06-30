@@ -27,7 +27,7 @@ export default function CTA() {
           transition={{ duration: 0.8, ease: 'easeOut' }}
           className="relative z-10 px-6 text-center"
         >
-          <p className="font-body text-sm uppercase tracking-[0.22em] text-vanta-sky/80">Empieza hoy</p>
+          <p className="pl-[0.22em] font-body text-sm uppercase tracking-[0.22em] text-vanta-sky/80">Empieza hoy</p>
           <h2 className="mx-auto mt-5 max-w-3xl font-heading text-5xl font-extrabold leading-[1.04] tracking-[-0.02em] md:text-7xl">
             <ShinyText text="Deja de vigilar a ciegas" speed={4} color="#9db4d6" shineColor="#ffffff" spread={80} />
           </h2>

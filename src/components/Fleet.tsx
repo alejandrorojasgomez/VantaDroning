@@ -139,17 +139,14 @@ export default function Fleet() {
         </div>
 
         {/* guarantee + scarcity */}
-        <div className="mt-10 flex flex-col items-start gap-4 rounded-2xl bg-vanta-deep p-6 sm:flex-row sm:items-center sm:justify-between">
-          <div className="flex items-center gap-3">
-            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-vanta-accent/15">
-              <ShieldIcon className="h-5 w-5 text-vanta-sky" />
-            </span>
-            <p className="text-sm font-light leading-snug text-white/80">
-              <span className="font-bold text-[#E8EEF7]">Garantía 30 noches.</span> Si no te sientes más seguro,
-              te devolvemos el 100% y retiramos la flota.
-            </p>
-          </div>
-          <p className="shrink-0 text-sm font-light text-vanta-sky">Solo 5 instalaciones nuevas por mes en Cali</p>
+        <div className="mt-10 flex items-center gap-3 rounded-2xl bg-vanta-deep p-6">
+          <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-vanta-accent/15">
+            <ShieldIcon className="h-5 w-5 text-vanta-sky" />
+          </span>
+          <p className="text-sm font-light leading-snug text-white/80">
+            <span className="font-bold text-[#E8EEF7]">Garantía 30 noches.</span> Si no te sientes más seguro,
+            te devolvemos el 100% y retiramos la flota.
+          </p>
         </div>
       </div>
     </section>
